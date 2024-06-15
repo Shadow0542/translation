@@ -152,8 +152,10 @@
         },
         "CREATE_STUBS_FROM_SEARCH": {
           "DESCRIPTION": {
-            "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, beschriften Sie es mit „Skizze“."
-          }
+            "MAC": "Wenn Sie ein Rem durch Drücken von Cmd+Return in einer Suche erstellen, beschriften Sie es mit „Skizze“.",
+            "PC": "Wenn Sie ein Rem durch Drücken von Strg+Eingabe in einer Suche erstellen, kennzeichnen Sie es mit „Skizze“."
+          },
+          "TITLE": "Erstellen Sie Skizzen aus der Suche"
         },
         "ENABLE_SPELLCHECK": {
           "DESCRIPTION": "Überprüfen Sie das aktuell fokussierte Rem auf Tippfehler.",
@@ -177,6 +179,10 @@
       "PREVIEW_REM_ON_HOVER": {
         "LABEL": "Wenn Sie mit der Maus über eine Referenz fahren, wird eine Vorschau ihres Inhalts angezeigt.",
         "TITLE": "Vorschau der Referenzen beim Hovern"
+      },
+      "SCALE_COLLAPSED_REM_BULLETS": {
+        "LABEL": "Passen Sie die Größe des Ringes um die Vignette entsprechend der Anzahl der Nachkommen an.",
+        "TITLE": "Skalierung vertraglicher Rems-Vignetten"
       },
       "SMOOTHLY_ANIMATE_THE_EDITOR": {
         "LABEL": "Animieren Sie beim Hinzufügen oder Entfernen von Rems im Editor.",
@@ -288,15 +294,23 @@
         "TITLE": "Gesamtbreite"
       },
       "IN_APP_SUGGESTIONS": {
-        "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können."
+        "KEYWORDS": "Tooltips unterstützen das Lern-Tutorial",
+        "LABEL": "Zeigen Sie oben in Ihrem Dokument Tipps zu RemNote-Funktionen an, die Sie ausprobieren können.",
+        "TITLE": "Einführende Tipps oben im Dokument"
       },
       "INTERFACE": {
         "KEYWORDS": "sprache sprache übersetzung i18n",
         "TITLE": "RemNote Sprache der Benutzeroberfläche(Alpha)"
       },
+      "LEFT_SIDEBAR_TUTORIALS": {
+        "LABEL": "Zeigen Sie in der Ecke des Bildschirms Tutorials zu den RemNote-Funktionen an, die Sie gerade verwenden.",
+        "TITLE": "Interaktive Tutorials",
+        "KEYWORDS": "Tipps zu Tutorials in der linken Seitenleiste helfen beim Lernen"
+      },
       "ONBOARDING_TIPS_SHORTCUTS": {
         "LABEL": "Zeigen Sie in der Ecke des Bildschirms Tipps zu Tastaturkürzeln an, die Sie gerade verwenden.",
-        "TITLE": "Tipps zu Tastaturkürzeln"
+        "TITLE": "Tipps zu Tastaturkürzeln",
+        "KEYWORDS": "Tipps unterstützen das Lern-Tutorial"
       },
       "SIMPLIFIED_UI": {
         "LABEL": "Vereinfachen Sie die Benutzeroberfläche und blenden Sie erweiterte Funktionen aus.",
@@ -310,13 +324,26 @@
     "KEYBOARD_SHORTCUTS": {
       "CHANGE_KEYBOARD_SHORTCUTS": {
         "DESCRIPTION": "Passen Sie die Zuordnung der Tastenkombinationen für Tastaturkürzel an.",
+        "KEYWORDS": "Passen Sie Tastaturkürzel und Tastenbelegung an",
         "TITLE": "Tastaturkürzel ändern"
+      },
+      "DEFAULT_TO_LEGACY_KEYBOARD_SHORTCUTS": {
+        "DESCRIPTION": "Standardmäßig werden klassische Tastaturkürzel verwendet (Update vor August 2020).",
+        "TITLE": "Verwenden Sie klassische Standard-Tastaturkürzel"
       },
       "DOUBLE_SLASH_FOR_COMMAND_MENU": {
         "DESCRIPTION": "Geben Sie // anstelle von / ein, um beim Bearbeiten von Rems Befehle auszulösen.",
         "TITLE": "Doppelter Schrägstrich für Befehlsmenü"
       },
+      "ENTER_TO_OUTDENT": {
+        "LABEL": "Durch Drücken der Eingabetaste bei einem Rem ohne Inhalt und nicht auf der obersten Ebene des Dokuments wird die Einrückungsebene um eine Ebene verringert. (Wenn deaktiviert, bleiben Sie auf der gleichen Ebene und lassen Sie ein leeres Rem).",
+        "TITLE": "Drücken Sie zum Dedent die Eingabetaste"
+      },
       "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": "Durch Drücken der Eingabetaste mitten in einem Rem wird ein Zeilenumbruch innerhalb dieses Rem erzeugt. Um den Text in zwei separate Rems aufzuteilen, verwenden Sie Opt+Return (standardmäßig führen Shift+Return bzw. Return allein diese Funktionen aus).",
+          "PC": "Wenn Sie mitten in einem Rem die Eingabetaste drücken, wird ein Zeilenumbruch innerhalb dieses Rem erstellt und der Text mit Alt+Enter in zwei separate Rems aufgeteilt. (Standardmäßig werden diese Funktionen nur durch Umschalt+Eingabetaste bzw. Eingabetaste ausgeführt.)"
+        },
         "TITLE": {
           "MAC": "Mit Opt+Return aufteilen",
           "PC": "Mit Alt+Enter auteilen"
@@ -330,10 +357,12 @@
     "NOTIFICATIONS": {
       "DESCRIPTIONS": {
         "ARTICLE_VIEWS": {
-          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihr freigegebenes Dokument signifikante Aufrufe erhält"
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihr freigegebenes Dokument signifikante Aufrufe erhält",
+          "TITLE": "Besuchsbenachrichtigungen dokumentieren"
         },
         "DOCUMENT_ADDED_TO_GROUP": {
-          "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird"
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn ein Dokument zu Ihrer Gruppe hinzugefügt wird",
+          "TITLE": "Benachrichtigung über das zur Gruppe hinzugefügte Dokument"
         },
         "INVITE": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn Sie zu einer Gruppe eingeladen wurden",
@@ -344,7 +373,8 @@
           "TITLE": "Kommentarbenachrichtigungen"
         },
         "NEW_FOLLOWER": {
-          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihnen jemand folgt"
+          "LABEL": "Lassen Sie sich benachrichtigen, wenn Ihnen jemand folgt",
+          "TITLE": "Follower-Benachrichtigungen"
         },
         "NEW_LIKE": {
           "LABEL": "Lassen Sie sich benachrichtigen, wenn ein von Ihnen geteiltes Dokument mit „Gefällt mir“ markiert wird",
@@ -355,22 +385,31 @@
           "TITLE": "Strähne-Benachrichtigungen"
         }
       },
+      "ENABLE_DUE_CARDS_LABEL": "Zeigen Sie die Gesamtzahl der ausstehenden Karten als Abzeichen auf dem RemNote-App-Symbol auf Ihrem Startbildschirm an",
+      "ENABLE_DUE_CARDS_TITLE": "Abzeichen für ausstehende Karten",
       "ENABLE_EMAIL_LABEL": "Erhalten Sie Benachrichtigungen direkt in Ihren Posteingang",
       "ENABLE_EMAIL_TITLE": "E-Mail-Benachrichtigungen aktivieren?",
       "ENABLE_PUSH_LABEL": "Erhalten Sie Benachrichtigungen direkt auf Ihr Gerät",
       "ENABLE_PUSH_TITLE": "Push-Benachrichtigungen aktivieren?",
       "TOGGLE_LABEL": "Steuern Sie, welche Benachrichtigungen Sie direkt auf Ihrem Gerät/Posteingang erhalten möchten",
-      "TOGGLE_TITLE": "Benachrichtigungen filtern"
+      "TOGGLE_TITLE": "Benachrichtigungen filtern",
+      "ENABLE_COMMUNITY_LABEL": "Erhalten Sie sofortige Benachrichtigungen, wenn jemand mit Ihren geteilten Inhalten interagiert.",
+      "ENABLE_COMMUNITY_TITLE": "Geteilte Flashcard-Benachrichtigungen",
+      "ENABLE_STREAK_DESCRIPTION": "Erhalten Sie täglich um 18:00 Uhr Erinnerungen an Ihre Karteikartensträhne",
+      "ENABLE_STREAK_TITLE": "Mobile Streak-Benachrichtigungen",
+      "PUSH_ENABLE_MESSAGE": "Push-Benachrichtigungen sind auf diesem Gerät nicht konfiguriert. Klicken Sie hier, um sie einzurichten!"
     },
     "SIDEBAR": {
       "CUSTOMIZE_SIDEBAR_SECTIONS": {
         "TITLE": "Passen Sie Seitenleistenabschnitte an"
       },
       "DOCUMENT_STATUSES": {
-        "LABEL": "Organisieren Sie Dokumente in den Kategorien „Entwurf“, „Fertiggestellt“ und „Angeheftet“."
+        "LABEL": "Organisieren Sie Dokumente in den Kategorien „Entwurf“, „Fertiggestellt“ und „Angeheftet“.",
+        "TITLE": "Dokumentzustände"
       },
       "PRIVACY_NOTE": "Datenschutz: Lesen Sie unsere<policyLink>Datenschutzrichtlinie</policyLink> , oder ändern Sie Ihre Einstellungen in unserem<hubLink> Datenschutz-Hub</hubLink> .",
       "SORT_SIDEBAR": {
+        "KEYWORDS": "Seitenleiste organisieren, sortieren, az",
         "TITLE": "Seitenleiste sortieren"
       },
       "COMMUNITY_TAB": {
@@ -418,12 +457,34 @@
     "NEW_COMMENT": {
       "BODY": "kommentiert",
       "BODY_ARTICLE": "hat auf Ihr Dokument kommentiert",
-      "BODY_COMMENT": "hat auf deinen Kommentar geantwortet"
+      "BODY_COMMENT": "hat auf deinen Kommentar geantwortet",
+      "BODY_GROUP": "habe eine Nachricht an deine Gruppe gesendet"
     },
     "NEW_FOLLOWER": {
       "BODY": "gefolgt"
     },
+    "NEW_LIKE": {
+      "BODY": "es hat ihm gefallen"
+    },
     "POPUP_TITLE": "Aktuelle Benachrichtigungen"
+  },
+  "ONBOARDING": {
+    "SIDEBAR": {
+      "INITIAL": {
+        "0": {
+          "TITLE": "Erstellen Sie einen Ordner "
+        },
+        "1": {
+          "TITLE": "Fügen Sie eine Kugel hinzu"
+        },
+        "2": {
+          "TITLE": "Erstellen Sie eine Karteikarte"
+        },
+        "3": {
+          "TITLE": "Organisieren Sie Notizen mit Tab"
+        }
+      }
+    }
   },
   "PAGES": {
     "ALL_NOTES": {
@@ -473,7 +534,8 @@
     }
   },
   "POWERUPS": {
-    "POWERUP_one": "Einschalten"
+    "POWERUP_one": "Einschalten",
+    "POWERUP_other": "Booster"
   },
   "SIDEBAR": {
     "LABEL_ALL_NOTES": "Alle Notizen",
@@ -492,6 +554,11 @@
     "LINK_SOURCE": {
       "ENTER_URL": "URL eingeben",
       "INVALID_URL": "Ungültige URL",
+      "LABEL": "Verknüpfung",
+      "LINK": "Verknüpfung",
+      "LINK_WITH_COUNT_one": "{{count, number}} Link",
+      "LINK_WITH_COUNT_other": "{{count, number}} Links",
+      "OPEN_IN_READER": "Im Reader öffnen",
       "SEARCH_PLACEHOLDER": "Fügen Sie einen Link ein oder suchen Sie nach einer Referenz"
     },
     "UPLOAD_SOURCE": {
@@ -499,9 +566,23 @@
       "INVALID": "Falsches Dateiformat!",
       "LABEL": "Hochladen",
       "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
       "SELECT_FILES": "Dateien auswählen",
       "SELECT_FILES_TO_UPLOAD": "Wählen Sie die Dateien zum Hochladen aus",
-      "UPLOADING": "Hochladen..."
+      "UPLOADING": "Hochladen...",
+      "IMPORT_INSTEAD": "RemNote kann Dateien dieses Typs nicht akzeptieren. Allerdings könnten wir die in dieser Datei enthaltenen Notizen oder Karteikarten importieren! Versuchen Sie, im Kontomenü oben links „Importieren“ auszuwählen."
+    },
+    "WIKIMEDIA_COMMONS": {
+      "EMPTY": "Drop-PDF, Word, PPT und<moreLink> weiter</moreLink> !",
+      "INVALID": "Falsches Dateiformat!",
+      "LABEL": "Bildersuche",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDFs",
+      "SELECT_FILES": "Dateien auswählen",
+      "SELECT_FILES_TO_UPLOAD": "Wählen Sie die Dateien zum Hochladen aus",
+      "UPLOADING": "Es geht hoch..."
     }
   },
   "TABLES": {
@@ -515,6 +596,8 @@
         "SORT_TITLE": "Sortieren"
       },
       "TABLE_CONFIGURATION": {
+        "ADD_LIST_VIEW_TITLE": "Listenansicht hinzufügen",
+        "ADD_TABLE_VIEW_TITLE": "Tabellenansicht hinzufügen",
         "ALL": "Alle",
         "CELL_LIST_HEIGHT": {
           "CELL_LIST_HEIGHT_TITLE": "Zellenhöhe",
@@ -540,6 +623,7 @@
         "TABLE_CONFIGURATION_TITLE": "Tabelle",
         "VIEW_AS": {
           "LIST_VIEW": "Liste",
+          "NORMAL_PORTAL_VIEW": "Portal",
           "TABLE_VIEW": "Tabelle",
           "VIEW_AS_TITLE": "Ansicht als"
         },
@@ -547,6 +631,7 @@
         "ZOOM_IN_TO_TABLE_TITLE": "In die Tabelle hineinzoomen"
       },
       "TAG": {
+        "EDIT_TABLE_NAME": "Tabellennamen bearbeiten",
         "PRESS_TO_SAVE": "Drücken Sie ↩ zum Speichern",
         "RENAME_TAG": "Etikett umbenennen",
         "TAG_TITLE": "Etikett Name",
@@ -556,6 +641,7 @@
     "PRIMARY_COLUMN_TITLE": "Name",
     "TABLE_CREATION": {
       "EXISTING_TAG": {
+        "DESCRIPTION": "Mit einer vorhandenen Quelle verbinden {{viewName}} ",
         "TITLE": "Vorhandenes Etikett  verwenden"
       },
       "NEW_TAG": {
@@ -588,11 +674,128 @@
     "PROPERTY_other": "Eigenschaften",
     "PROPERTY_WITH_COUNT_one": "{{count, number}} Eigenschaft",
     "PROPERTY_WITH_COUNT_other": "{{count, number}} Eigenschaften",
+    "SET_AS_AUTO_APPLY_TEMPLATE": "Als Vorlage zur automatischen Anwendung festlegen",
     "TEMPLATE_one": "Vorlage",
     "TEMPLATE_other": "Vorlagen",
+    "TEMPLATE_WITH_COUNT_one": "{{count, number}} Vorlage",
     "TEMPLATE_WITH_COUNT_other": "{{count, number}} Vorlagen",
     "TEMPLATES_HELP_TEXT": "Die Vorlage eines Tags ist ein RemNote-Dokument, das automatisch in getaggte Rems kopiert werden kann. Fügen Sie Überschriften, Checklisten und mehr direkt in Ihre Vorlage ein.",
     "TURN_OFF_AUTO_APPLY": "Deaktiviere „Automatisches anwenden“.",
     "VIEW_CONFIGURATION": "Tag konfigurieren"
+  },
+  "DOCUMENT": {
+    "DIALOGS": {
+      "DELETE_ALSO_UNSHARE": "Möchten Sie auch die Freigabe des Dokuments beenden?",
+      "DELETE_CONFIRM_DIALOG": "Möchten Sie dieses Dokument wirklich löschen?",
+      "DELETE_UNSHARE_ERROR": "Beim Beenden der Freigabe dieses Dokuments ist ein Fehler aufgetreten. Bitte löschen Sie es manuell.",
+      "DELETE_UNSHARE_OFFLINE_ERROR": "Du bist offline. Bitte beenden Sie die manuelle Freigabe des Dokuments, wenn Sie wieder online sind."
+    },
+    "MENU": {
+      "ADD_NESTED_DOCUMENT": "Verschachteltes Dokument hinzufügen",
+      "CHANGE_DOCUMENT_STATUS": "Dokumentstatus ändern",
+      "CUSTOMIZE_SPACED_REPETITION": "Passen Sie die räumliche Wiederholung an",
+      "DELETE": "Beseitigen",
+      "EDIT_MODE": {
+        "READ": "Nur-Lese-Modus",
+        "WRITE": "Bearbeitungsmodus"
+      },
+      "EXPORT": "Export",
+      "FIND_OR_FILTER": "Suchen oder filtern",
+      "FIND_TEXT_REFERENCES": {
+        "DEPRECATION_WARNING": "Diese Option ist veraltet und es wird empfohlen, die alternative Pressmethode zu verwenden<keycode /> und suchen Sie stattdessen nach Textverweisen.",
+        "LABEL": "Suchen Sie nach Textreferenzen"
+      },
+      "MARK_AS_DOCUMENT": "Als Dokument markieren",
+      "MOVE": "Bewegen",
+      "OPEN_IN_ANOTHER_PANE": "In einem anderen Panel öffnen",
+      "PIN_TO_SIDEBAR": "An Seitenleiste anpinnen",
+      "PRINT": "Drucken",
+      "RENAME": "Umbenennen",
+      "SHOW_STUDY_BUTTON": "Schaltfläche „Lernen anzeigen“ anzeigen",
+      "STATS": "Statistiken",
+      "UNDO": "Rückgängig machen",
+      "UNPIN_FROM_SIDEBAR": "Stoppen Sie das Anheften an die Seitenleiste",
+      "UNSHARE_DOCUMENT": "Hören Sie auf, das Dokument weiterzugeben",
+      "VIEW_GRAPH": "Diagramm anzeigen",
+      "VIEW_TRASH": "Siehe Papierkorb"
+    },
+    "PUBLISH_STATUS": {
+      "DRAFT": "Entwurf",
+      "FINISHED": "Abgeschlossen",
+      "PINNED": "Fest"
+    }
+  },
+  "FILE_UPLOADING": {
+    "CACHED_INFO": "Diese Datei wird für die Offline-Anzeige zwischengespeichert und wurde möglicherweise noch nicht hochgeladen.",
+    "LOCAL_ONLY_WARN": "Diese Datei wurde nicht korrekt hochgeladen und ist vorübergehend auf Ihrem Computer gespeichert.",
+    "LOCAL_WAITING_FOR_UPLOAD_WARN": "Diese Datei wurde noch nicht hochgeladen und ist nur lokal gespeichert.",
+    "NOT_FOUND": "Diese Datei kann nicht gefunden werden.",
+    "NOT_YET_UPLOADED": "Diese Datei wurde noch nicht hochgeladen.",
+    "SNIPPING": {
+      "NON_PDF": "Bitte versuchen Sie es mit einem anderen Zuschneide- oder Einfügetool oder wenden Sie sich an den Support.",
+      "PDF": "Bitte wenden Sie sich an den technischen Support"
+    }
+  },
+  "PDF": {
+    "ADD_ANNOTATIONS": {
+      "AI_DROPDOWN": {
+        "BASIC_CARDS": "Basiskarten",
+        "BASIC_CARDS_TOOLTIP": "Generieren Sie einfache Frage-Antwort-Lernkarten aus ausgewähltem Text.",
+        "CLOZE_CARDS": "Abschlusskarten (füllen Sie die Lücke aus)",
+        "CLOZE_CARDS_TOOLTIP": "Erstellen Sie Abschlusskarten (füllen Sie die Lücke aus) aus dem ausgewählten Text.",
+        "CONCEPT_CARDS": "Konzeptkarten",
+        "CONCEPT_CARDS_TOOLTIP": "Generieren Sie Konzeptbeschreibungskarten aus dem ausgewählten Text.",
+        "GENERATE_SECTION": "AUSLÖSEN"
+      },
+      "CLOZE_BTN_TOOLTIP": "Abschlusskarten (füllen Sie die Lücke aus)",
+      "COPY_IMAGE": "Kopiere das Bild",
+      "COPY_TEXT": "Als einfachen Text kopieren",
+      "HIGHLIGHT": "Markieren",
+      "MAKE_IMG_OCC_BTN_TOOLTIP": "Erstellen Sie Karteikarten, die Bilder ausblenden",
+      "NO_TEXT_IN_PDF_WARN": "Diese Datei enthält keine Textebene, Sie können jedoch dennoch Bereichshervorhebungen zum Kommentieren verwenden.",
+      "NOTE_BTN_TOOLTIP": "Notiz"
+    },
+    "EDIT_ANNOTATIONS": {
+      "ADVANCED_LINKING_OPTIONS": "Erweiterte Verknüpfungsoptionen",
+      "DELETE_WARNING": "Dieses Highlight hat {{notesCount, number}} {{ notesWord }} . Sind Sie sicher, dass Sie es löschen möchten?",
+      "TURN_INTO_CONCEPT": "In Konzept umwandeln",
+      "VIEW_REFERENCES": "Siehe Referenzen"
+    },
+    "HEADER": {
+      "AREA_HIGHLIGHT_TOOLTIP": "Bereich hervorheben ( {{keyName}} + Ziehen)",
+      "NUMBER_OF_PAGES_TOOLTIP": "Seitenzahl",
+      "TOGGLE_DEFAULT_DOCUMENT_TOOLTIP": "Standarddokument umschalten"
+    },
+    "PDF_OPTIONS": {
+      "CHANGE_THEME": "Thema ändern",
+      "DOWNLOAD_PDF": "PDF Herunterladen",
+      "LEARN_MORE": "Erfahren Sie mehr",
+      "OPEN_WEBPAGE_EXTERNALLY": "Webseite extern öffnen",
+      "PDF_SETTINGS": "Einstellungen",
+      "PDF_SETTINGS_MENU": {
+        "AUTO_HIGHLIGHT": "Automatische Hervorhebung",
+        "AUTO_HIGHLIGHT_TOOLTIP": "Erstellt nach der Textauswahl automatisch Hervorhebungen.",
+        "DISABLE_HEADER_BUTTONS": "Kopfzeilenschaltflächen deaktivieren",
+        "DISABLE_HEADER_BUTTONS_TOOLTIP": "Deaktivieren Sie die Anzeige der Kopfzeilenschaltflächen («) im Reader.",
+        "SNAP_HIGHLIGHT_TO_WORDS": "Passen Sie die Hervorhebung an Wörter an",
+        "SNAP_HIGHLIGHT_TO_WORDS_TOOLTIP": "Wählen Sie beim Erstellen neuer Hervorhebungen nur ganze Wörter aus."
+      },
+      "REFETCH_PAGE": "Holen Sie sich die Seite zurück",
+      "REFETCH_PAGE_TOOLTIP": "Diese Seite kann nicht abgerufen werden, wenn sie über vorhandene Highlights verfügt.",
+      "SEARCH_IN_PDF": "Suche im PDF",
+      "SPLIT_PANES": "Geteilte Paneele",
+      "SPLIT_PANES_TOOLTIP": "Teilen Sie den PDF-Editor und -Viewer in separate Bereiche auf.",
+      "THEMES": {
+        "CLASSIC_INVERT": "Klassisch umgekehrt",
+        "DARK": "Dunkel",
+        "LIGHT": "Klar",
+        "SOLARISED": "Solarisiert",
+        "USE_REMNOTE_THEME": "Verwenden Sie das RemNote-Design"
+      }
+    },
+    "SEARCH_CTRL_F": {
+      "DONE": "Gemacht",
+      "INPUT_PLACEHOLDER": "Suche"
+    }
   }
 }
